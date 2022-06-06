@@ -1,0 +1,7 @@
+.MuiPaper-elevation1 {
+  box-shadow:none !important;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: #fff !important;
+}
