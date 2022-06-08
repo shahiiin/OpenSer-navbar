@@ -1,18 +1,19 @@
 import { CardMedia, CardContent, Typography, Card, CardActionArea } from '@material-ui/core'
 import Human from './../../../../assets/image/human.png'
 import Profile from './../../../../assets/image/pic.avif'
-
+import './avatar.css'
 const styles = {
-  avatar: {
-    height: '100%',
-    width: '100%',
 
-  },
   box: {
     height: 500,
     width: 500,
     borderRadius: 12,
   },
+  content: {
+    display: 'flex',
+    flexDirection: 'row',
+  },
+
 }
 
 const Avatar = () => {
@@ -27,16 +28,16 @@ const Avatar = () => {
             image={Human}
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent style={styles.content}>
 
-            {/* <CardMedia
+            <CardMedia
               component="img"
               alt="Contemplative Reptile"
-              height='20'
+              className='avatar-image'
               image={Profile}
               title="Contemplative Reptile"
-            /> */}
-
+            />
+         
           </CardContent>
         </CardActionArea>
 

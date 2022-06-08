@@ -1,0 +1,7 @@
+.janbotran {
+  background-image: url('./../../assets/image/home-banner.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 40px;
+}
